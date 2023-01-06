@@ -6,11 +6,12 @@ int main(void){
 
 	display_msg();
 	display_prompt();
-    fork();
+pid_t ret=fork();
+
 	while(1)
 	{
 
-        fork();
+
 		commande();
 
 
